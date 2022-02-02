@@ -2,10 +2,10 @@
 
 ## 1.- [¿Qué es Helm? ¿Qué son los charts?](ficheros/)
 
-## 2.- [Instalación de helm.+](ficheros/instalación.md)
+## 2.- [Instalación de helm](ficheros/instalación.md)
 
-## 3.- [Trabajando con repositorios.](ficheros/Listar-repo.md)
+## 3.- [Trabajando con repositorios](ficheros/Listar-repo.md)
 
-## 4.- [Caso práctico: Instalar wordpress ](ficheros/practico.md)
+## 4.- [Caso práctico: Instalar wordpress](ficheros/practico.md)
 
 ## 5.- Referencias consultadas
