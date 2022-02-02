@@ -1,6 +1,6 @@
 # PROYECTO: HELM
 
-## 1.- [¿Qué es Helm? ¿Qué son los charts?](ficheros/)
+## 1.- [¿Qué es Helm? ¿Qué son los charts?](ficheros/que-es.md)
 
 ## 2.- [Instalación de helm](ficheros/instalación.md)
 
