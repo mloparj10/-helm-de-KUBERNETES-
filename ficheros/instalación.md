@@ -28,4 +28,4 @@ mv linux-amd64/helm /usr/local/bin/helm
 
 Ya estaría listo, con irnos a la terminal y escribir "helm version"  nos mostrará que version tenemos
 
-![2-a](images/2-a.png)
+![2-a](https://github.com/mloparj10/helm-de-KUBERNETES/blob/main/images/2-a.png)
