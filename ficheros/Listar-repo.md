@@ -10,7 +10,7 @@ Para ver los repositorios que tenemos añadidos (que será de donde descargará 
 helm repo list 
 ```
 
-![3-a]()
+![3-a](https://github.com/mloparj10/helm-de-KUBERNETES/blob/main/images/3-a.png)
 
 Si acabas de instalar Helm, es probable que tu lista de repositorios esté vacía.
 
@@ -25,7 +25,7 @@ Para añadir utilizaremos el siguiente comando:
 helm repo add bitnami https://charts.bitnami.com/bitnami
 ```
 
-![3-b]()
+![3-b](https://github.com/mloparj10/helm-de-KUBERNETES/blob/main/images/3-b.png)
 
 Donde pone "Bitnami" es el nombre que queremos ponerle al repositorio. (No importa como lo llamemos, pero es aconsejable poner un nombre relacionado con el repositorio)
 
@@ -40,7 +40,7 @@ Se utiliza el siguiente comando:
 helm repo  remove bitnami
 ```
 
-![3-c]()
+![3-c](https://github.com/mloparj10/helm-de-KUBERNETES/blob/main/images/3-c.png)
 
 ## Buscar charts: nginx, wordpress, etc
 
@@ -50,6 +50,10 @@ Es hora de buscar aplicaciones que queramos desplegar. Es un comando muy simple,
 helm search repo nombre_app
 ```
 
-Donde he puesto "nombre_app" obviamente lo sustituimos por la aplicacion que queramos buscar. En este caso yo quiero buscar un Nginx:
+Donde he puesto "nombre_app" obviamente lo sustituimos por la aplicacion que queramos buscar. En este caso yo quiero buscar la app web de Nginx:
 
-![3-d]()
+![3-d](https://github.com/mloparj10/helm-de-KUBERNETES/blob/main/images/3-d.png)
+
+Y como observais en la imagen te muestra una lista de las más populares o las mejores valoradas por la comunidad.
+
+En el siguiente apartado mostraremos un caso práctico de comom Desplegar un Wordpress con Helm. 
