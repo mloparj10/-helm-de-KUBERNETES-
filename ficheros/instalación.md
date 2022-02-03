@@ -23,3 +23,9 @@ Helm es un binario, es decir, ***no hay necesidad de instalarlo***. Para ello no
 ```
 mv linux-amd64/helm /usr/local/bin/helm
 ```
+
+## Paso 4
+
+Ya estaría listo, con irnos a la terminal y escribir "helm version"  nos mostrará que version tenemos
+
+![2-a](images/2-a.png)
