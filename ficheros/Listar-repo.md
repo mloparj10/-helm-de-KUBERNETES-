@@ -47,5 +47,9 @@ helm repo  remove bitnami
 Es hora de buscar aplicaciones que queramos desplegar. Es un comando muy simple, que si sabes inglés y te has visto los comandos anteriores no es muy dificil de acertar:
 
 ```
-
+helm search repo nombre_app
 ```
+
+Donde he puesto "nombre_app" obviamente lo sustituimos por la aplicacion que queramos buscar. En este caso yo quiero buscar un Nginx:
+
+![3-d]()
