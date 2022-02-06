@@ -11,7 +11,7 @@ Vamos a buscar en nuestro repositorio de Bitnami wordpress:
 helm search repo wordpress
 ```
 
-![4-a](4-a.png)
+![4-a](/images/4-a.png)
 
 Vamos a instalar el priemro que sale, bitnami/wordpress, que trae la version de la app 5.9.0.
 
@@ -23,19 +23,19 @@ Vamos a parametrizar el wordpress, indicando dos parámetros: el tipo de servici
 
 Si buscamos "wordpress" Nos aparecerán varios resultados. Nosotros vamos a coger [el segundo](https://artifacthub.io/packages/helm/bitnami/wordpress), que está desarrollado por Bitnami:
 
-![4-b](4-b.png)
+![4-b](/images/4-b.png)
 
 Al pinchar en él y bajar por su página, enmcontraremos lso parámetros.
 
 Para el tipo de servicio:
 
-![4-c](4-c.png)
+![4-c](/images/4-c.png)
 
 Yo quiero cambiarlo a NodePort.
 
 Para el nombre del blog:
 
-![4-d](4-d.png)
+![4-d](/images/4-d.png)
 
 Yo le pondre de nombre "Blog de Mario sobre Helm"
 
@@ -45,7 +45,7 @@ Ya tenemos localizados los parametros. Ya es ora de instar Wordpress:
 helm install wordpress-mario bitnami/wordpress --set service.type=NodePort --set wordpressBlogName="Blog de Mario sobre Helm"
 ```
 
-![4-e](4-e.png)
+![4-e](/images/4-e.png)
 
 La instalacion ha sido un éxito.
 
@@ -55,7 +55,7 @@ La instalacion ha sido un éxito.
 kubectl get all
 ```
 
-![4-f](4-f.png)
+![4-f](/images/4-f.png)
 
 Como observamos se ha desplegado todo lo necesario.
 
@@ -63,12 +63,12 @@ Como observamos se ha desplegado todo lo necesario.
 
 Vamos a obtener la IP y el puerto para acceder al wordpress:
 
-![4-g](4-g.png)
-![4-h](4-h.png)
+![4-g](/images/4-g.png)
+![4-h](/images/4-h.png)
 
 Accedemos desde nuestro navegador favorito:
 Y como observamos, funciona, y el nombre de arriba a la izquierda es el que definimos en los parametros:
 
-![4-i](4-i.png)
+![4-i](/images/4-i.png)
 
 
